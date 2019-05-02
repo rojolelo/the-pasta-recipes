@@ -7,6 +7,7 @@ body {
     margin: 0;
     height: 100%;
     padding: 0px;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Home Things */
@@ -15,34 +16,43 @@ body {
 
 .homeHeader {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     color: white;
-    height: 60vh;
-    background-color: rgb(215, 53, 26);
+    height: 50vh;
+    background-color: #bf3017;
 }
 
-.homeHeader button,
-.homeHeader h1 {
-    filter: blur(0px);
+@media only screen and (max-width: 480px) {
+    #logo {
+        width: 90%;
+    }
 }
 
-#catalogue-button:hover {
-    background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0.05, #ffc926),
-        color-stop(1, #ffd724)
-    );
-    background: -moz-linear-gradient(top, #ffc926 5%, #ffd724 100%);
-    background: -webkit-linear-gradient(top, #ffc926 5%, #ffd724 100%);
-    background: -o-linear-gradient(top, #ffc926 5%, #ffd724 100%);
-    background: -ms-linear-gradient(top, #ffc926 5%, #ffd724 100%);
-    background: linear-gradient(to bottom, #ffc926 5%, #ffd724 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc926', endColorstr='#ffd724',GradientType=0);
-    background-color: #ffc926;
+@media only screen and (max-height: 675px) {
+    .homeHeader {
+        height: 100vh;
+    }
 }
+
+#catalogue-button {
+    box-shadow: inset 0px 1px 0px 0px #ffd500;
+    background: linear-gradient(to bottom, #ffd724 50%, #ffc926 100%);
+    background-color: #ffd724;
+    border-radius: 6px;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #030000;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 41px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
 #catalogue-button:active {
     position: relative;
     top: 1px;
@@ -52,16 +62,20 @@ body {
 
 .topRecipes-container {
     background-color: #fbfbff;
+    font-family: "Lora", serif;
 }
 
 .topRecipes-container h1 {
     text-align: center;
     font-weight: 900;
+    margin-top: 0px;
+    padding-top: 30px;
 }
 
 .topRecipes {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .single-topRecipe {
@@ -69,19 +83,23 @@ body {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    width: 250px;
+    width: 200px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: rgba(230, 230, 230, 1);
+    padding: 15px;
 }
 
 .topRecipe-img {
-    width: 200px;
+    width: 150px;
     border-style: solid;
     border-radius: 50%;
     border-width: 10px;
-    border-color: #d7351a;
+    border-color: #a02813;
 }
 
 .single-topRecipe p {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
@@ -89,4 +107,14 @@ body {
 
 .single-topRecipe-img {
     text-align: center;
+}
+
+#single-recipe-button {
+    background-color: burlywood;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    border-radius: 3px;
+    padding: 15px 15px;
+    border: none;
 }

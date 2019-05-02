@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 //AN OBJECT MUST BE RECEIVED BY PROPS
 const SingleTopRecipe = props => {
     // const { title, img } = props.object;
-    const title = "Pasticcio";
+    const title = "Pastisio";
     const imgPath = "pasticcio.png";
     return (
         <div className="single-topRecipe">
@@ -19,7 +19,9 @@ const SingleTopRecipe = props => {
             </div>
             <p>{title}</p>
 
-            <button type="button">Recipe</button>
+            <button type="button" id="single-recipe-button">
+                Recipe
+            </button>
         </div>
     );
 };

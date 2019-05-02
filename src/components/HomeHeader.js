@@ -7,10 +7,10 @@ class HomeHeader extends Component {
     render() {
         return (
             <div className="homeHeader">
-                <h1>The Pasta Recipe</h1>
+                <img src="/imgs/logo.png" alt="logo" id="logo" />
                 {this.state.catalogueButton ? (
                     <button type="button" id="catalogue-button">
-                        Ver Catalogo
+                        Check our catalogue
                     </button>
                 ) : null}
             </div>
