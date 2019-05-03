@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/the-pasta-recipes/static/css/main.123d4b85.chunk.css",
-    "main.js": "/the-pasta-recipes/static/js/main.03767bd8.chunk.js",
-    "main.js.map": "/the-pasta-recipes/static/js/main.03767bd8.chunk.js.map",
+    "main.css": "/the-pasta-recipes/static/css/main.56368a47.chunk.css",
+    "main.js": "/the-pasta-recipes/static/js/main.ed4ef214.chunk.js",
+    "main.js.map": "/the-pasta-recipes/static/js/main.ed4ef214.chunk.js.map",
     "runtime~main.js": "/the-pasta-recipes/static/js/runtime~main.4c034658.js",
     "runtime~main.js.map": "/the-pasta-recipes/static/js/runtime~main.4c034658.js.map",
     "static/js/2.3e5eadc2.chunk.js": "/the-pasta-recipes/static/js/2.3e5eadc2.chunk.js",
     "static/js/2.3e5eadc2.chunk.js.map": "/the-pasta-recipes/static/js/2.3e5eadc2.chunk.js.map",
     "index.html": "/the-pasta-recipes/index.html",
-    "precache-manifest.5f4ad1dbe9f6c860c2138b33ff9aedfd.js": "/the-pasta-recipes/precache-manifest.5f4ad1dbe9f6c860c2138b33ff9aedfd.js",
+    "precache-manifest.32c50059ab68d2ffcfddae83fe493cb7.js": "/the-pasta-recipes/precache-manifest.32c50059ab68d2ffcfddae83fe493cb7.js",
     "service-worker.js": "/the-pasta-recipes/service-worker.js",
-    "static/css/main.123d4b85.chunk.css.map": "/the-pasta-recipes/static/css/main.123d4b85.chunk.css.map"
+    "static/css/main.56368a47.chunk.css.map": "/the-pasta-recipes/static/css/main.56368a47.chunk.css.map"
   }
 }
