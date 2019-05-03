@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/the-pasta-recipes/static/css/main.123d4b85.chunk.css",
+    "main.js": "/the-pasta-recipes/static/js/main.327609e6.chunk.js",
+    "main.js.map": "/the-pasta-recipes/static/js/main.327609e6.chunk.js.map",
+    "runtime~main.js": "/the-pasta-recipes/static/js/runtime~main.4c034658.js",
+    "runtime~main.js.map": "/the-pasta-recipes/static/js/runtime~main.4c034658.js.map",
+    "static/js/2.3e5eadc2.chunk.js": "/the-pasta-recipes/static/js/2.3e5eadc2.chunk.js",
+    "static/js/2.3e5eadc2.chunk.js.map": "/the-pasta-recipes/static/js/2.3e5eadc2.chunk.js.map",
+    "index.html": "/the-pasta-recipes/index.html",
+    "precache-manifest.ad967420906ca49b869237e80919d9bb.js": "/the-pasta-recipes/precache-manifest.ad967420906ca49b869237e80919d9bb.js",
+    "service-worker.js": "/the-pasta-recipes/service-worker.js",
+    "static/css/main.123d4b85.chunk.css.map": "/the-pasta-recipes/static/css/main.123d4b85.chunk.css.map"
+  }
+}
