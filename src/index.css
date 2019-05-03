@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+* {
+    margin: 0;
+}
+
 html,
 body {
     margin: 0;
@@ -59,17 +63,22 @@ body {
 }
 
 /* Recipes */
-
+.catalogue-container,
 .topRecipes-container {
     background-color: #fbfbff;
     font-family: "Lora", serif;
 }
-
+.catalogue-container h1,
+.aboutPasta-container h1,
 .topRecipes-container h1 {
     text-align: center;
     font-weight: 900;
     margin-top: 0px;
-    padding-top: 30px;
+    padding-top: 25px;
+}
+
+#subtitle {
+    margin-top: 0px;
 }
 
 .topRecipes {
@@ -117,4 +126,99 @@ body {
     border-radius: 3px;
     padding: 15px 15px;
     border: none;
+}
+
+/*About Pasta */
+
+.aboutPasta-container {
+    background-color: silver;
+    padding-bottom: 70px;
+    font-family: "Lora", serif;
+}
+
+.aboutPasta {
+    text-align: center;
+}
+
+.about-p {
+    display: inline-block;
+}
+
+.facts {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.aboutPasta-content {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: whitesmoke;
+    padding: 30px 20px;
+    border-radius: 10px;
+    max-width: 60%;
+    align-items: center;
+}
+
+.fas {
+    font-size: 100px;
+    margin: 20px;
+}
+
+.icon {
+    display: inline-block;
+    min-width: 150px;
+}
+
+#chef {
+    position: absolute;
+    transform: scaleX(-1);
+    right: 0px;
+    width: auto;
+}
+
+/* Single Recipe */
+
+.recipes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.singleRecipe-card {
+    width: 200px;
+    height: auto;
+    margin: 15px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgba(178, 34, 34, 1);
+    padding: 3px;
+}
+
+.singleRecipe-card div {
+    margin: 0px;
+}
+
+.card-img {
+    width: 200px;
+    height: 150px;
+    background-image: url("/imgs/pasticcio.png");
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#single-recipe-btn {
+    background-color: burlywood;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 15px 15px;
+    border: none;
+    width: 100%;
 }

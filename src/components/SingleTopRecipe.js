@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 //AN OBJECT MUST BE RECEIVED BY PROPS
 const SingleTopRecipe = props => {
-    // const { title, img } = props.object;
+    // const { title, imgPath } = props.object;
     const title = "Pastisio";
     const imgPath = "pasticcio.png";
     return (
