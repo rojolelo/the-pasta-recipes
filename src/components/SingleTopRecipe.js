@@ -5,14 +5,13 @@ import { Link } from "react-router-dom";
 const SingleTopRecipe = props => {
     // const { title, imgPath } = props.object;
     const title = "Pastisio";
-    const imgPath = "pasticcio.png";
     return (
         <div className="single-topRecipe">
             <div className="single-topRecipe-img">
                 <Link to={`/`}>
                     <img
                         className="topRecipe-img"
-                        src={`/imgs/${imgPath}`}
+                        src={`https://firebasestorage.googleapis.com/v0/b/directorio-de-negocios-a257b.appspot.com/o/pasticcio.png?alt=media&token=d60110fb-0ece-43fb-945a-27108cfd26be`}
                         alt="Pasticcio"
                     />
                 </Link>

@@ -7,7 +7,11 @@ class HomeHeader extends Component {
             return (
                 <div className="homeHeader">
                     <Link to={"/"}>
-                        <img src="/imgs/logo.png" alt="logo" id="logo" />
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/directorio-de-negocios-a257b.appspot.com/o/logo.png?alt=media&token=6adefac4-7af3-44f0-bdbc-9f083f057853"
+                            alt="logo"
+                            id="logo"
+                        />
                     </Link>
                 </div>
             );
@@ -15,7 +19,11 @@ class HomeHeader extends Component {
         return (
             <div className="homeHeader">
                 <Link to={"/"}>
-                    <img src="/imgs/logo.png" alt="logo" id="logo" />
+                    <img
+                        src="https://firebasestorage.googleapis.com/v0/b/directorio-de-negocios-a257b.appspot.com/o/logo.png?alt=media&token=6adefac4-7af3-44f0-bdbc-9f083f057853"
+                        alt="logo"
+                        id="logo"
+                    />
                 </Link>
                 <Link to={"/catalogue"}>
                     <button type="button" id="catalogue-button">

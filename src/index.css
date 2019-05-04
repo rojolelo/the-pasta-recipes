@@ -25,12 +25,21 @@ body {
     align-items: center;
     color: white;
     height: 50vh;
-    background-color: #bf3017;
+    background-color: #a02813 !important;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/directorio-de-negocios-a257b.appspot.com/o/header.jpg?alt=media&token=b7220225-42c1-4bd5-8ea7-30c4ea36f578");
+    background-blend-mode: multiply;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 480px) {
     #logo {
         width: 90%;
+        position: relative;
+        left: 5%;
+        margin-bottom: 15px;
+    }
+    .aboutPasta-content {
+        flex-direction: column;
     }
 }
 
@@ -104,7 +113,7 @@ body {
     border-style: solid;
     border-radius: 50%;
     border-width: 10px;
-    border-color: #a02813;
+    border-color: maroon;
 }
 
 .single-topRecipe p {
@@ -205,7 +214,7 @@ body {
 .card-img {
     width: 200px;
     height: 150px;
-    background-image: url("/imgs/pasticcio.png");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/directorio-de-negocios-a257b.appspot.com/o/pasticcio.png?alt=media&token=d60110fb-0ece-43fb-945a-27108cfd26be");
     background-size: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
