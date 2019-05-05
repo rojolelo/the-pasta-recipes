@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/the-pasta-recipes/precache-manifest.1877697d7fc0f10e4da5fc097f1736ca.js"
+  "/the-pasta-recipes/precache-manifest.a4a11c4d3b94b1347566e4f415acc7a8.js"
 );
 
 self.addEventListener('message', (event) => {
