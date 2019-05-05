@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af04fb8e952a45a738a31193edeacf27",
+    "revision": "fd7993b800b18e1b3033e47ee62900b2",
     "url": "/the-pasta-recipes/index.html"
   },
   {
-    "revision": "776176539be2fd205c2e",
+    "revision": "8f233bcae9248cb154d7",
     "url": "/the-pasta-recipes/static/css/main.28cb2669.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-pasta-recipes/static/js/2.5109ad41.chunk.js"
   },
   {
-    "revision": "776176539be2fd205c2e",
-    "url": "/the-pasta-recipes/static/js/main.81c0e39d.chunk.js"
+    "revision": "8f233bcae9248cb154d7",
+    "url": "/the-pasta-recipes/static/js/main.1d94a9b4.chunk.js"
   },
   {
     "revision": "c9de0ea283b6587e064f",
